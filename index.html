@@ -10,25 +10,35 @@
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-<div className="product p-4 bg-white rounded-lg shadow-md">
+<div className="product p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
   <img
     src="/public/kent-bread-maker.jpg"
     alt="KENT Atta & Bread Maker 550W"
-    className="w-full max-w-xs mx-auto"
+    className="w-full max-w-xs mx-auto rounded-lg"
   />
 
-  <h3 className="text-xl font-semibold text-gray-900 mt-4">
+  <h3 className="text-2xl font-bold text-gray-900 mt-4">
     KENT Atta & Bread Maker 550 W (Steel Grey)
   </h3>
 
-  <p className="text-base text-gray-700 leading-relaxed mt-2">
-    Fully automatic bread and atta maker with 19 pre‑set programme menus.
-    One‑touch operation for easy kneading of dough and baking fresh bread,
-    chapatti dough or other items. Powerful 550 W motor for versatile kitchen use.
+  <p className="text-gray-700 text-base leading-relaxed mt-3">
+    Enjoy <span className="font-semibold text-gray-900">fresh bread and dough</span> anytime with the 
+    <span className="text-blue-600 font-semibold">KENT Atta & Bread Maker</span>. Key features include:
+  </p>
+
+  <ul className="list-disc list-inside text-gray-700 mt-2 space-y-1 text-sm">
+    <li>19 pre-set programs for bread, dough, and more</li>
+    <li>Powerful 550 W motor for quick kneading and baking</li>
+    <li>One-touch operation for easy use</li>
+    <li>Durable stainless steel body for long-lasting performance</li>
+  </ul>
+
+  <p className="text-gray-700 text-base leading-relaxed mt-2">
+    Perfect for home bakers who want <span className="font-semibold">freshly baked bread and healthy dough</span> every day.
   </p>
 
   <button
-    className="mt-3 px-4 py-2 bg-blue-600 text-white font-medium rounded hover:bg-blue-700"
+    className="mt-4 px-5 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-300"
     onClick={() =>
       window.open(
         "https://www.amazon.in/dp/B072MMFJLJ/?tag=your-affiliate-tag",
